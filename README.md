@@ -6,8 +6,8 @@
 <p>
 Software version: HDF5 V1.14.0
 OS: Ubuntu 18.04.6 LTS
-Compiler:alf-clang-fast
-CXX= afl-clang-fast ++
+Compiler:clang
+
 </p>
 
 #### Build Steps:
