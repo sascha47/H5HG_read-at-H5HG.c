@@ -1,7 +1,8 @@
 <p>
 H5HG_READ at H5HG.c
 </p>
-
+<p>
+</p>
 <p>
 Software version: HDF5 V1.14.0
 OS: Ubuntu 18.04.6 LTS
@@ -12,12 +13,17 @@ Compiler:clang
 Build steps:
 </p>
 
+
 ```
  ./configure --disable-shared --enable-static-exec && make
 ```
 
+
 <p>
  Build options: None needed besides default
+</p>
+
+<p>
 </p>
 
 <p>
@@ -25,15 +31,23 @@ Build steps:
 </p>
 
 ```
-tools/src/h5diff plain_model.h5 plain_model.h5
+tools/src/h5diff plain_model.h5
 ```
+
 
 <p>
 Plain_model.h5 is within the <a href="https://github.com/sascha47/H5HG_read-at-H5HG.c/blob/54a4d97c7793838e7df437533a24ebb4a3c916fe/poc.zip">poc.zip</a>
 </p>
 
 <p>
+</p>
+
+<p>
 Stack Trace:
+</p>
+
+<p>
+ 
 </p>
 
 ```
@@ -85,4 +99,5 @@ Program received signal SIGSEGV, Segmentation fault.
 #17 0x0000000000441b2d in h5diff (fname1=<optimized out>, fname2=<optimized out>, objname1=<optimized out>, 
     objname2=<optimized out>, opts=0x7fffffffdb90) at h5diff.c:1047
 #18 0x0000000000400d47 in main (argc=<optimized out>, argv=<optimized out>) at h5diff_main.c:98
+
 ```
