@@ -36,7 +36,7 @@ tools/src/h5diff plain_model.h5
 
 
 <p>
-Plain_model.h5 is within the <a href="https://github.com/sascha47/H5HG_read-at-H5HG.c/blob/f9f47911ff95d52924f474852698d1237759f221/poc.zip">poc.zip</a>
+Plain_model.h5 is within the <a href="poc.zip">poc.zip</a>
 </p>
 
 <p>
