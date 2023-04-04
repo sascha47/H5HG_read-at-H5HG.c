@@ -101,3 +101,4 @@ Program received signal SIGSEGV, Segmentation fault.
 #18 0x0000000000400d47 in main (argc=<optimized out>, argv=<optimized out>) at h5diff_main.c:98
 
 ```
+I only used the plain_model.h5 for the corpus and the "in" file, but both files can be used for the $BASE_MODEL
