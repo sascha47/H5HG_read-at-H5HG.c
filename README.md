@@ -31,7 +31,7 @@ Build steps:
 </p>
 
 ```
-tools/src/h5diff plain_model.h5
+tools/src/h5diff plain_model.h5 {id:crash_file}
 ```
 
 
