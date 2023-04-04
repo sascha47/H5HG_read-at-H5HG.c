@@ -1,23 +1,30 @@
+H5HG_READ at H5HG.c
+
 Software version: HDF5 V1.14.0
 OS: Ubuntu 18.04.6 LTS
 Compiler:clang
-
 </p>
 
-#### Build Steps:
+<p> Build Steps:
 
 ```
-./configure --disable-shared --enable-static-exec && make
+ ./configure --disable-shared --enable-static-exec && make
 ```
 
-#### Build options: None needed besides default
-<p>
-None needed besides default
+<p> 
+ Build options: None needed besides default
 </p>
 
-#### Command or corpus
 <p>
-Download the <a href="https://github.com/sascha47/H5HG_read-at-H5HG.c/blob/54a4d97c7793838e7df437533a24ebb4a3c916fe/poc.zip>Poc.zip</a> into your corpus and in file for the seeding
+ Command/Corpus:
+</p>
+
+```
+tools/src/h5diff plain_model.h5
+```
+
+<p>
+Plain_model.h5 is within the <a href="https://github.com/sascha47/H5HG_read-at-H5HG.c/blob/54a4d97c7793838e7df437533a24ebb4a3c916fe/poc.zip>Poc.zip</a> into your corpus and in file for the seeding
 </p>
 
 ```
