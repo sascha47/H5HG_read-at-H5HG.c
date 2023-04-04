@@ -1,38 +1,40 @@
+<p>
 H5HG_READ at H5HG.c
+</p>
 
+<p>
 Software version: HDF5 V1.14.0
 OS: Ubuntu 18.04.6 LTS
 Compiler:clang
 </p>
 
-<p> Build Steps:
+<p> 
+Build steps:
+</p>
 
 ```
  ./configure --disable-shared --enable-static-exec && make
 ```
 
-<p> 
+<p>
  Build options: None needed besides default
 </p>
 
 <p>
- Command/Corpus:
+ Command:
 </p>
 
 ```
-tools/src/h5diff plain_model.h5
+tools/src/h5diff plain_model.h5 plain_model.h5
 ```
 
 <p>
-Plain_model.h5 is within the <a href="https://github.com/sascha47/H5HG_read-at-H5HG.c/blob/54a4d97c7793838e7df437533a24ebb4a3c916fe/poc.zip>Poc.zip</a> into your corpus and in file for the seeding
+Plain_model.h5 is within the <a href="https://github.com/sascha47/H5HG_read-at-H5HG.c/blob/54a4d97c7793838e7df437533a24ebb4a3c916fe/poc.zip">poc.zip</a>
 </p>
 
-```
- ~/hdf5-1.14.0/in/plain_model.h5
-```
-
-
-#### Stack Trace:
+<p>
+Stack Trace:
+</p>
 
 ```
 Starting program: /root/hdf5-1.14.0/tools/src/h5diff/h5diff /root/hdf5-1.14.0/in/plain_model.h5 /root/hdf5-1.14.0/out/fuzz00/crashes/id:000025,sig:11,src:000000,op:flip1,pos:3977
